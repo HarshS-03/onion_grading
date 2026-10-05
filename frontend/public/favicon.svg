@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Rounded Squircle Background -->
+  <rect width="64" height="64" rx="18" fill="url(#bgGrad)" />
+  <rect x="0.5" y="0.5" width="63" height="63" rx="17.5" stroke="#FFFFFF" stroke-opacity="0.2" />
+
+  <!-- Leaves / Sprout -->
+  <path d="M32 10C32 16 37 18 40 19" stroke="#4ADE80" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M30 11C28 16 24 18 21 19" stroke="#22C55E" stroke-width="3.2" stroke-linecap="round" />
+  <path d="M32 9V17" stroke="#86EFAC" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Outer Bulb -->
+  <path
+    d="M32 17C21.5 24 16 32 16 40C16 49.5 23 54.5 32 54.5C41 54.5 48 49.5 48 40C48 32 42.5 24 32 17Z"
+    fill="url(#bulbGrad)"
+    stroke="#FFFFFF"
+    stroke-width="2"
+  />
+
+  <!-- Inner Rings -->
+  <path
+    d="M32 19C24 27 21 33.5 21 40C21 47 25.5 51.5 32 52.5C38.5 51.5 43 47 43 40C43 33.5 40 27 32 19Z"
+    fill="url(#innerGrad)"
+  />
+
+  <!-- Glossy Center Highlight -->
+  <path
+    d="M32 23C28 29.5 26.5 35 26.5 40C26.5 45 29 48 32 49C35 48 37.5 45 37.5 40C37.5 35 36 29.5 32 23Z"
+    fill="#FFFFFF"
+    fill-opacity="0.35"
+  />
+
+  <!-- Roots at base -->
+  <path d="M29 55L28 58M32 55V59M35 55L36 58" stroke="#FDE047" stroke-width="2.5" stroke-linecap="round" />
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9B1D3C" />
+      <stop offset="50%" stop-color="#701028" />
+      <stop offset="100%" stop-color="#4A0617" />
+    </linearGradient>
+    <linearGradient id="bulbGrad" x1="32" y1="17" x2="32" y2="54.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF1F2" />
+      <stop offset="60%" stop-color="#FECDD3" />
+      <stop offset="100%" stop-color="#FDA4AF" />
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="32" y1="19" x2="32" y2="52.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#BE123C" />
+    </linearGradient>
+  </defs>
+</svg>
